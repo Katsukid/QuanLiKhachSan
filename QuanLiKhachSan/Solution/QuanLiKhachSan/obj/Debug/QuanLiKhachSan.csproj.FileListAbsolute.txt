@@ -1442,3 +1442,7 @@ G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\obj\Debug\QuanLi
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.CopyComplete
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.exe
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.pdb
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\bin\Debug\QuanLiKhachSan.exe.config
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.exe
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.pdb
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csprojResolveAssemblyReference.cache

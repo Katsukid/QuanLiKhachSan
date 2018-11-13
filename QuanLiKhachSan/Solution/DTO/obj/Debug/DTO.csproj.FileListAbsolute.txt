@@ -32,3 +32,6 @@ G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.csprojAssembl
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.dll
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.pdb
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.dll
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.pdb

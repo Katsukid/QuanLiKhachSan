@@ -62,3 +62,6 @@ G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.csprojAssembl
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.dll
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.pdb
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.dll
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.pdb

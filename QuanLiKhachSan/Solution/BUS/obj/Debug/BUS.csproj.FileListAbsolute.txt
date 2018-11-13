@@ -72,3 +72,6 @@ G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.csprojAssembl
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.dll
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.pdb
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.dll
+C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.pdb
