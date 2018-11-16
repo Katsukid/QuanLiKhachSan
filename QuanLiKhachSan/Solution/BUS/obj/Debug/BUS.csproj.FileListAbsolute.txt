@@ -75,3 +75,13 @@ G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.pdb
 C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.dll
 C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\BUS.dll
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\BUS.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\DAO.dll
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\DTO.dll
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\EntityFramework.dll
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\DAO.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\DAO.dll.config
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\DTO.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\bin\Debug\EntityFramework.xml
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\BUS\obj\Debug\BUS.csproj.CopyComplete

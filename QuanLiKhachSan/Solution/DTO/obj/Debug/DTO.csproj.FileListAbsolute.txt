@@ -28,7 +28,6 @@ G:\GitHub\QUANLYKHACHSAN_G4_TEAM\Project\Project Solution\Solution\DTO\obj\Debug
 G:\GitHub\QUANLYKHACHSAN_G4_TEAM\Project\Project Solution\Solution\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 G:\GitHub\QUANLYKHACHSAN_G4_TEAM\Project\Project Solution\Solution\DTO\obj\Debug\DTO.dll
 G:\GitHub\QUANLYKHACHSAN_G4_TEAM\Project\Project Solution\Solution\DTO\obj\Debug\DTO.pdb
-G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.dll
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.pdb
