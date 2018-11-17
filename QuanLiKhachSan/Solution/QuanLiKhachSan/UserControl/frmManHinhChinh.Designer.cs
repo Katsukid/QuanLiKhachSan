@@ -28,30 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ptbHotel = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbHotel)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // ptbHotel
-            // 
-            this.ptbHotel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ptbHotel.Image = global::QuanLiKhachSan.Properties.Resources.HotelBeach;
-            this.ptbHotel.Location = new System.Drawing.Point(0, 0);
-            this.ptbHotel.Name = "ptbHotel";
-            this.ptbHotel.Size = new System.Drawing.Size(1305, 630);
-            this.ptbHotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbHotel.TabIndex = 0;
-            this.ptbHotel.TabStop = false;
-            // 
-            // frmManHinhChinh
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.ptbHotel);
-            this.Name = "frmManHinhChinh";
-            this.Size = new System.Drawing.Size(1305, 630);
-            ((System.ComponentModel.ISupportInitialize)(this.ptbHotel)).EndInit();
-            this.ResumeLayout(false);
+               System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmManHinhChinh));
+               this.ptbHotel = new System.Windows.Forms.PictureBox();
+               ((System.ComponentModel.ISupportInitialize)(this.ptbHotel)).BeginInit();
+               this.SuspendLayout();
+               // 
+               // ptbHotel
+               // 
+               this.ptbHotel.Dock = System.Windows.Forms.DockStyle.Fill;
+               this.ptbHotel.Image = ((System.Drawing.Image)(resources.GetObject("ptbHotel.Image")));
+               this.ptbHotel.Location = new System.Drawing.Point(0, 0);
+               this.ptbHotel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+               this.ptbHotel.Name = "ptbHotel";
+               this.ptbHotel.Size = new System.Drawing.Size(1522, 775);
+               this.ptbHotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+               this.ptbHotel.TabIndex = 0;
+               this.ptbHotel.TabStop = false;
+               // 
+               // frmManHinhChinh
+               // 
+               this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.Controls.Add(this.ptbHotel);
+               this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+               this.Name = "frmManHinhChinh";
+               this.Size = new System.Drawing.Size(1522, 775);
+               ((System.ComponentModel.ISupportInitialize)(this.ptbHotel)).EndInit();
+               this.ResumeLayout(false);
 
         }
 

@@ -65,3 +65,11 @@ G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.pdb
 C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.dll
 C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\bin\Debug\DAO.dll.config
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\bin\Debug\DAO.dll
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\bin\Debug\DAO.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\bin\Debug\DTO.dll
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\bin\Debug\EntityFramework.dll
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\bin\Debug\DTO.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\bin\Debug\EntityFramework.xml
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DAO\obj\Debug\DAO.csproj.CopyComplete

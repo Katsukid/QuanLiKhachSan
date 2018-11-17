@@ -36,3 +36,4 @@ C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj
 C:\Users\ADMIRAL\Documents\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.pdb
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\bin\Debug\DTO.dll
 G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\bin\Debug\DTO.pdb
+G:\GitHub\QuanLiKhachSan\QuanLiKhachSan\Solution\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
