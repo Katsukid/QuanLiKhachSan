@@ -288,7 +288,7 @@ namespace QuanLiKhachSan.UserControl
 
         private void gcDanhSachKhachHang_DoubleClick(object sender, EventArgs e)
         {
-            int makh = int.Parse(gvKhachHang.GetRowCellValue(gvKhachHang.FocusedRowHandle, gvKhachHang.Columns["MaKH"]).ToString());
+            int makh = int.Parse(gvKhachHang.GetRowCellValue(gvKhachHang.FocusedRowHandle, gvKhachHang.Columns["MaKhachHang"]).ToString());
             string tenkh = gvKhachHang.GetRowCellValue(gvKhachHang.FocusedRowHandle, gvKhachHang.Columns["TenKhachHang"]).ToString();
             List<PhieuThuePhongDTO> lst = new List<PhieuThuePhongDTO>();
             lst = PhieuThueBUS.LayPhongTuongUng(makh);
@@ -319,7 +319,7 @@ namespace QuanLiKhachSan.UserControl
                 var loaikhach = Convert.ToString(gvKhachHang.GetRowCellValue(e.RowHandle, gvKhachHang.Columns["LoaiKhach"]));
                 if (loaikhach == "Nước ngoài")
                 {
-                    e.Appearance.BackColor = Color.FromArgb(0x00, 0xFF, 0x00);
+                    e.Appearance.BackColor = Color.FromArgb(0, 127,0);
                 }
             }
         }

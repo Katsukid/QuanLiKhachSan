@@ -15,16 +15,18 @@ namespace QuanLiKhachSan.UserControl
 {
     public partial class Login : DevExpress.XtraEditors.XtraForm
     {
+          // Khởi tạo giao diện đăng nhập
         public Login()
         {
             InitializeComponent();
         }
-
+          // Event when Click on button btnThoat
         private void btnThoat_Click(object sender, EventArgs e)
         {
+               // Close Login window
             Application.Exit();
         }
-
+          // Event when Click
         private void btnHuy_Click(object sender, EventArgs e)
         {
             Application.Exit();

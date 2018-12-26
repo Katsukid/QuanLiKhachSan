@@ -34,7 +34,7 @@ namespace QuanLiKhachSan.UserControl
 
             if (cmbThamSo.Text == "Số lượng khách tối đa")
             {
-                ts.SLKhachToiDa = Convert.ToInt32(txtGiaTri.Text);
+                ts.SoLuongKhachToiDa = Convert.ToInt32(txtGiaTri.Text);
                 if (ThamSoBUS.CapNhatTSSoKhachToiDa(ts) == true)
                 {
                     MessageBox.Show("Cập nhập thành công số khách tối đa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -103,7 +103,7 @@ namespace QuanLiKhachSan.UserControl
             if (cmbThamSo.Text == "Số lượng khách tối đa")
             {
                 lst = ThamSoBUS.LoadSoLuongKhach();
-                txtGiaTri.Text = lst[0].SLKhachToiDa.ToString();
+                txtGiaTri.Text = lst[0].SoLuongKhachToiDa.ToString();
             }
             if (cmbThamSo.Text == "Hệ số")
             {

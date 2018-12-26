@@ -40,8 +40,8 @@
                this.ptbHotel.Location = new System.Drawing.Point(0, 0);
                this.ptbHotel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
                this.ptbHotel.Name = "ptbHotel";
-               this.ptbHotel.Size = new System.Drawing.Size(1522, 775);
-               this.ptbHotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+               this.ptbHotel.Size = new System.Drawing.Size(1522, 860);
+               this.ptbHotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
                this.ptbHotel.TabIndex = 0;
                this.ptbHotel.TabStop = false;
                // 
@@ -52,7 +52,7 @@
                this.Controls.Add(this.ptbHotel);
                this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
                this.Name = "frmManHinhChinh";
-               this.Size = new System.Drawing.Size(1522, 775);
+               this.Size = new System.Drawing.Size(1522, 860);
                ((System.ComponentModel.ISupportInitialize)(this.ptbHotel)).EndInit();
                this.ResumeLayout(false);
 

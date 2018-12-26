@@ -40,9 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BCDoanhThuDTO.cs" />
+    <Compile Include="BaoCaoDoanhThuDTO.cs" />
     <Compile Include="ChiTietPhieuThueDTO.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="DangNhapDTO.cs" />
     <Compile Include="DichVuDTO.cs" />
     <Compile Include="HoaDonDTO.cs" />

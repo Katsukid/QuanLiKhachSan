@@ -63,7 +63,6 @@
     <Compile Include="CHI_TIET_PHIEU_THUE.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="DangNhapDAO.cs" />
     <Compile Include="DANG_KI_DICH_VU.cs">
       <DependentUpon>Model1.tt</DependentUpon>

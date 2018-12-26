@@ -18,11 +18,11 @@ namespace QuanLiKhachSan.UserControl
         {
             InitializeComponent();
         }
-        List<BCDoanhThuDTO> lst = new List<BCDoanhThuDTO>();
+        List<BaoCaoDoanhThuDTO> lst = new List<BaoCaoDoanhThuDTO>();
         private void btnXem_Click(object sender, EventArgs e)
         {
-            BCDoanhThuDTO infor = new BCDoanhThuDTO();
-            List<BCDoanhThuDTO> dlst = new List<BCDoanhThuDTO>();
+            BaoCaoDoanhThuDTO infor = new BaoCaoDoanhThuDTO();
+            List<BaoCaoDoanhThuDTO> dlst = new List<BaoCaoDoanhThuDTO>();
             if (txtNam.Text == "" && cmbThang.Text == "")
             {
                 decimal sum = 0;

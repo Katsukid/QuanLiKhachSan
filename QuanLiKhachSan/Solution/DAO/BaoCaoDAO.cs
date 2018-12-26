@@ -11,13 +11,13 @@ namespace DAO
     {
         static QUAN_LY_KHACH_SANEntities context = new QUAN_LY_KHACH_SANEntities();
 
-        public static List<BCDoanhThuDTO> TinhTongDoanhThuTheoLoaiPhong()
+        public static List<BaoCaoDoanhThuDTO> TinhTongDoanhThuTheoLoaiPhong()
         {
             var query = (from p in context.PHONGs
                          join cthd in context.CHI_TIET_HOA_DON on p.MaPhong equals cthd.MaPhong
                          join hd in context.HOA_DON on cthd.MaHoaDon equals hd.MaHoaDon
                          group hd by p.LOAI_PHONG.TenLoaiPhong into g
-                         select new BCDoanhThuDTO
+                         select new BaoCaoDoanhThuDTO
                          {
                              TenLoaiPhong = g.Key,
                            
@@ -26,14 +26,14 @@ namespace DAO
             return query.ToList();
         }
 
-        public static List<BCDoanhThuDTO> DoanhThuTheoLoaiPhongTheoThang(DateTime ntm_min, DateTime ntm_max)
+        public static List<BaoCaoDoanhThuDTO> DoanhThuTheoLoaiPhongTheoThang(DateTime ntm_min, DateTime ntm_max)
         {
             var query = from p in context.PHONGs
                         join ct in context.CHI_TIET_HOA_DON on p.MaPhong equals ct.MaPhong
                         join hd in context.HOA_DON on ct.MaHoaDon equals hd.MaHoaDon
                         where ct.NgayThanhToan >= ntm_min && ct.NgayThanhToan <= ntm_max
                         group hd by p.LOAI_PHONG.TenLoaiPhong into g
-                        select new BCDoanhThuDTO
+                        select new BaoCaoDoanhThuDTO
                         {
                             TenLoaiPhong = g.Key,
                             TongDoanhThu = g.Sum(hd => hd.TriGia),

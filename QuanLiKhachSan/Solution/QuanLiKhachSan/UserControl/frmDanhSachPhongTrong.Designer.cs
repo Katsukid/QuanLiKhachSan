@@ -49,37 +49,37 @@
                // label6
                // 
                this.label6.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-               this.label6.Location = new System.Drawing.Point(4, 17);
+               this.label6.Location = new System.Drawing.Point(148, 6);
                this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
                this.label6.Name = "label6";
                this.label6.Size = new System.Drawing.Size(554, 66);
                this.label6.TabIndex = 20;
-               this.label6.Text = "THÔNG TIN PHÒNG";
+               this.label6.Text = "CHI TIẾT PHÒNG";
                this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                // 
                // txtGhiChu
                // 
-               this.txtGhiChu.Location = new System.Drawing.Point(24, 351);
-               this.txtGhiChu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+               this.txtGhiChu.Location = new System.Drawing.Point(21, 256);
+               this.txtGhiChu.Margin = new System.Windows.Forms.Padding(4);
                this.txtGhiChu.Multiline = true;
                this.txtGhiChu.Name = "txtGhiChu";
                this.txtGhiChu.ReadOnly = true;
-               this.txtGhiChu.Size = new System.Drawing.Size(523, 186);
+               this.txtGhiChu.Size = new System.Drawing.Size(764, 216);
                this.txtGhiChu.TabIndex = 27;
                // 
                // txtDonGia
                // 
-               this.txtDonGia.Location = new System.Drawing.Point(21, 250);
-               this.txtDonGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+               this.txtDonGia.Location = new System.Drawing.Point(525, 153);
+               this.txtDonGia.Margin = new System.Windows.Forms.Padding(4);
                this.txtDonGia.Name = "txtDonGia";
                this.txtDonGia.ReadOnly = true;
-               this.txtDonGia.Size = new System.Drawing.Size(265, 32);
+               this.txtDonGia.Size = new System.Drawing.Size(260, 32);
                this.txtDonGia.TabIndex = 26;
                // 
                // txtMaPhong
                // 
                this.txtMaPhong.Location = new System.Drawing.Point(21, 153);
-               this.txtMaPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+               this.txtMaPhong.Margin = new System.Windows.Forms.Padding(4);
                this.txtMaPhong.Name = "txtMaPhong";
                this.txtMaPhong.ReadOnly = true;
                this.txtMaPhong.Size = new System.Drawing.Size(229, 32);
@@ -91,7 +91,7 @@
                this.label5.AutoSize = true;
                this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.label5.ForeColor = System.Drawing.Color.Black;
-               this.label5.Location = new System.Drawing.Point(20, 308);
+               this.label5.Location = new System.Drawing.Point(20, 215);
                this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
                this.label5.Name = "label5";
                this.label5.Size = new System.Drawing.Size(76, 24);
@@ -103,7 +103,7 @@
                this.label4.AutoSize = true;
                this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.label4.ForeColor = System.Drawing.Color.Black;
-               this.label4.Location = new System.Drawing.Point(17, 210);
+               this.label4.Location = new System.Drawing.Point(521, 110);
                this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
                this.label4.Name = "label4";
                this.label4.Size = new System.Drawing.Size(79, 24);
@@ -115,7 +115,7 @@
                this.label3.AutoSize = true;
                this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.label3.ForeColor = System.Drawing.Color.Black;
-               this.label3.Location = new System.Drawing.Point(277, 110);
+               this.label3.Location = new System.Drawing.Point(263, 110);
                this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
                this.label3.Name = "label3";
                this.label3.Size = new System.Drawing.Size(108, 24);
@@ -127,7 +127,7 @@
                this.label1.AutoSize = true;
                this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.label1.ForeColor = System.Drawing.Color.Black;
-               this.label1.Location = new System.Drawing.Point(17, 110);
+               this.label1.Location = new System.Drawing.Point(20, 110);
                this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
                this.label1.Name = "label1";
                this.label1.Size = new System.Drawing.Size(97, 24);
@@ -136,11 +136,11 @@
                // 
                // txtLoaiPhong
                // 
-               this.txtLoaiPhong.Location = new System.Drawing.Point(281, 153);
-               this.txtLoaiPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+               this.txtLoaiPhong.Location = new System.Drawing.Point(258, 153);
+               this.txtLoaiPhong.Margin = new System.Windows.Forms.Padding(4);
                this.txtLoaiPhong.Name = "txtLoaiPhong";
                this.txtLoaiPhong.ReadOnly = true;
-               this.txtLoaiPhong.Size = new System.Drawing.Size(266, 32);
+               this.txtLoaiPhong.Size = new System.Drawing.Size(259, 32);
                this.txtLoaiPhong.TabIndex = 28;
                // 
                // btnLamMoi
@@ -156,8 +156,8 @@
                this.btnLamMoi.Appearance.Options.UseForeColor = true;
                this.btnLamMoi.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
                this.btnLamMoi.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLamMoi.ImageOptions.Image")));
-               this.btnLamMoi.Location = new System.Drawing.Point(317, 609);
-               this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+               this.btnLamMoi.Location = new System.Drawing.Point(555, 502);
+               this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4);
                this.btnLamMoi.Name = "btnLamMoi";
                this.btnLamMoi.Size = new System.Drawing.Size(230, 80);
                this.btnLamMoi.TabIndex = 30;
@@ -177,8 +177,8 @@
                this.btnDatPhong.Appearance.Options.UseForeColor = true;
                this.btnDatPhong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
                this.btnDatPhong.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDatPhong.ImageOptions.Image")));
-               this.btnDatPhong.Location = new System.Drawing.Point(24, 606);
-               this.btnDatPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+               this.btnDatPhong.Location = new System.Drawing.Point(24, 502);
+               this.btnDatPhong.Margin = new System.Windows.Forms.Padding(4);
                this.btnDatPhong.Name = "btnDatPhong";
                this.btnDatPhong.Size = new System.Drawing.Size(226, 83);
                this.btnDatPhong.TabIndex = 29;
@@ -188,10 +188,10 @@
                // lvPhong
                // 
                this.lvPhong.LargeImageList = this.imgListRoom;
-               this.lvPhong.Location = new System.Drawing.Point(565, 45);
-               this.lvPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+               this.lvPhong.Location = new System.Drawing.Point(823, 45);
+               this.lvPhong.Margin = new System.Windows.Forms.Padding(4);
                this.lvPhong.Name = "lvPhong";
-               this.lvPhong.Size = new System.Drawing.Size(1023, 710);
+               this.lvPhong.Size = new System.Drawing.Size(780, 518);
                this.lvPhong.TabIndex = 31;
                this.lvPhong.UseCompatibleStateImageBehavior = false;
                this.lvPhong.Click += new System.EventHandler(this.listView1_Click);
@@ -205,7 +205,7 @@
                // label2
                // 
                this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-               this.label2.Location = new System.Drawing.Point(565, 6);
+               this.label2.Location = new System.Drawing.Point(1083, 6);
                this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
                this.label2.Name = "label2";
                this.label2.Size = new System.Drawing.Size(297, 35);
@@ -232,9 +232,9 @@
                this.Controls.Add(this.label3);
                this.Controls.Add(this.label1);
                this.Controls.Add(this.label6);
-               this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+               this.Margin = new System.Windows.Forms.Padding(5);
                this.Name = "frmDanhSachPhongTrong";
-               this.Size = new System.Drawing.Size(1632, 787);
+               this.Size = new System.Drawing.Size(1632, 612);
                this.Load += new System.EventHandler(this.frmDanhSachPhongTrong_Load);
                this.ResumeLayout(false);
                this.PerformLayout();

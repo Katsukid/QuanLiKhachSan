@@ -211,7 +211,7 @@
                // grcMaKhachHang
                // 
                this.grcMaKhachHang.Caption = "Mã Khách Hàng";
-               this.grcMaKhachHang.FieldName = "MaKH";
+               this.grcMaKhachHang.FieldName = "MaKhachHang";
                this.grcMaKhachHang.Name = "grcMaKhachHang";
                this.grcMaKhachHang.Visible = true;
                this.grcMaKhachHang.VisibleIndex = 0;

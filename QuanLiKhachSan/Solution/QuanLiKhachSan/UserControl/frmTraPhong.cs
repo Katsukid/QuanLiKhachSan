@@ -88,7 +88,7 @@ namespace QuanLiKhachSan.UserControl
                     for (int j = 0; j < dem; j++)
                     {
                         KhachHangDTO id = new KhachHangDTO();
-                        id.MaKH = lstkh[j].MaKH;
+                        id.MaKhachHang = lstkh[j].MaKhachHang;
                         if (!(KhachHangBUS.XoaKhachHang(id)))
                         {
                             success = false;
@@ -249,7 +249,7 @@ namespace QuanLiKhachSan.UserControl
 
             lst = HoaDonBUS.LayKhachNuocNgoai();
             int kpt = lst[0].KhachPTThu.Value;
-            int kng = lst[0].SLKhachNG.Value;
+            int kng = lst[0].SoLuongKhachNuocNgoai.Value;
             if (num >= kpt)
             {
                 lst = HoaDonBUS.TinhPhuThu(num);

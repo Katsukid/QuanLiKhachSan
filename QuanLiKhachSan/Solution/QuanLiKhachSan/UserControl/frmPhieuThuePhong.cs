@@ -139,7 +139,7 @@ namespace QuanLiKhachSan.UserControl
 
             #region
             List<ThamSoDTO> lstMaxCus = PhongBUS.SoLuongKhachToiDa();
-            maxCus = lstMaxCus[0].SLKhachToiDa;
+            maxCus = lstMaxCus[0].SoLuongKhachToiDa;
             #endregion
         }
         private PhieuThuePhongDTO LayThongTinPhong()
@@ -157,12 +157,12 @@ namespace QuanLiKhachSan.UserControl
             try
             {
                 lst = PhieuThueBUS.LayMaKHKeTiep();
-                kh.MaKH = lst[0].MaKH + 1;
+                kh.MaKhachHang = lst[0].MaKhachHang + 1;
 
             }
             catch
             {
-                kh.MaKH = 1;
+                kh.MaKhachHang = 1;
             }
             kh.TenKhachHang = dgvDanhSachPhieuThue.Rows[i].Cells["colTenKhachHang"].Value.ToString();
             kh.CMND = dgvDanhSachPhieuThue.Rows[i].Cells["colCMND"].Value.ToString();
@@ -177,14 +177,14 @@ namespace QuanLiKhachSan.UserControl
             try
             {
                 lst = PhieuThueBUS.LayMaPTKeTiep();
-                ct.MaPT = lst[0].MaPT + 1;
+                ct.MaPhieuThue = lst[0].MaPhieuThue + 1;
                 lst = PhieuThueBUS.LayMaCTPTKeTiep();
-                ct.MaCTPT = lst[0].MaCTPT + 1;
+                ct.MaChiTietPhieuThue = lst[0].MaChiTietPhieuThue + 1;
             }
             catch
             {
-                ct.MaPT = 1;
-                ct.MaCTPT = 1;
+                ct.MaPhieuThue = 1;
+                ct.MaChiTietPhieuThue = 1;
             }
             return ct;
         }

@@ -10,12 +10,12 @@ namespace BUS
 {
     public class BaoCaoBUS
     {
-        public static List<BCDoanhThuDTO> TinhTongDoanhThuTheoLoaiPhong()
+        public static List<BaoCaoDoanhThuDTO> TinhTongDoanhThuTheoLoaiPhong()
         {
             return BaoCaoDAO.TinhTongDoanhThuTheoLoaiPhong();
         }
 
-        public static List<BCDoanhThuDTO> DoanhThuTheoLoaiPhongTheoThang(BCDoanhThuDTO infor)
+        public static List<BaoCaoDoanhThuDTO> DoanhThuTheoLoaiPhongTheoThang(BaoCaoDoanhThuDTO infor)
         {
             DateTime ntm_min = Convert.ToDateTime("1990-01-01");
             DateTime ntm_max = Convert.ToDateTime("1990-01-31");

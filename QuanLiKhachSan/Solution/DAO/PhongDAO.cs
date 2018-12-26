@@ -111,8 +111,8 @@ namespace DAO
                              GhiChu = r.GhiChu,
                              TenLoaiPhong = r.LOAI_PHONG.TenLoaiPhong,
                              DonGia = r.LOAI_PHONG.DonGia,
-                             NgayTraPhongDK = f.NgayTraPhongDK,
-                         }).OrderByDescending(s => s.NgayTraPhongDK);
+                             NgayTraPhongDuKien = f.NgayTraPhongDK,
+                         }).OrderByDescending(s => s.NgayTraPhongDuKien);
             return query.ToList();
         }
 
@@ -295,7 +295,7 @@ namespace DAO
                              GhiChu = r.GhiChu,
                              TenLoaiPhong = r.LOAI_PHONG.TenLoaiPhong,
                              DonGia = r.LOAI_PHONG.DonGia,
-                             NgayTraPhongDK = f.NgayTraPhongDK,
+                             NgayTraPhongDuKien = f.NgayTraPhongDK,
                          }).OrderByDescending(s => s.TinhTrang);
             return query.ToList();
         }
@@ -341,7 +341,7 @@ namespace DAO
             var query = (from max in context.THAM_SO
                          select new ThamSoDTO
                          {
-                             SLKhachToiDa = max.SoKhachToiDa,
+                             SoLuongKhachToiDa = max.SoKhachToiDa,
                          });
             return query.ToList();
         }

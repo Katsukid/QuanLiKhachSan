@@ -17,7 +17,7 @@ namespace DAO
             var query = (from ts in context.THAM_SO
                          select new ThamSoDTO
                          {
-                             SLKhachToiDa = ts.SoKhachToiDa,
+                             SoLuongKhachToiDa = ts.SoKhachToiDa,
                          });
             return query.ToList();
         }
@@ -78,7 +78,7 @@ namespace DAO
             var query = (from t in context.THAM_SO
                          select new ThamSoDTO
                          {
-                             SLKhachToiDa = t.SoKhachToiDa,
+                             SoLuongKhachToiDa = t.SoKhachToiDa,
                              HeSo = t.HeSo,
                              PhuThu = t.PhuThu
                          });
@@ -101,7 +101,7 @@ namespace DAO
 
         public static bool CapNhatTSSoKhachToiDa(ThamSoDTO infor)
         {
-            SqlParameter toida = new SqlParameter("@SoKhachToiDa", infor.SLKhachToiDa);
+            SqlParameter toida = new SqlParameter("@SoKhachToiDa", infor.SoLuongKhachToiDa);
             try
             {
                 context.Database.ExecuteSqlCommand("spCapNhatTSSoKhachToiDa @SoKhachToiDa", toida);

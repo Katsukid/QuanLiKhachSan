@@ -16,8 +16,8 @@ namespace DAO
             var query = (from k in context.KHACH_HANG
                          select new KhachHangDTO
                          {
-                             MaKH = k.MaKhachHang,
-                         }).OrderByDescending(x => x.MaKH).Take(1);
+                             MaKhachHang = k.MaKhachHang,
+                         }).OrderByDescending(x => x.MaKhachHang).Take(1);
             return query.ToList();
         }
 
@@ -26,8 +26,8 @@ namespace DAO
             var query = (from ctpt in context.CHI_TIET_PHIEU_THUE
                          select new PhieuThuePhongDTO
                          {
-                             MaCTPT = ctpt.MaChiTietPT,
-                         }).OrderByDescending(x => x.MaCTPT).Take(1);
+                             MaChiTietPhieuThue = ctpt.MaChiTietPT,
+                         }).OrderByDescending(x => x.MaChiTietPhieuThue).Take(1);
             return query.ToList();
         }
 
@@ -45,9 +45,9 @@ namespace DAO
 
         public static bool ThemCTPhieuThuePhong(ChiTietPhieuThueDTO ct, KhachHangDTO kh)
         {
-            SqlParameter mactpt = new SqlParameter("@MaCTPT", ct.MaCTPT);
-            SqlParameter makh = new SqlParameter("@MaKH", kh.MaKH);
-            SqlParameter mapt = new SqlParameter("@MaPT", ct.MaPT);
+            SqlParameter mactpt = new SqlParameter("@MaCTPT", ct.MaChiTietPhieuThue);
+            SqlParameter makh = new SqlParameter("@MaKH", kh.MaKhachHang);
+            SqlParameter mapt = new SqlParameter("@MaPT", ct.MaPhieuThue);
             try
             {
                 context.Database.ExecuteSqlCommand("spThemCTPhieuThue @MaCTPT, @MaKH, @MaPT", mactpt, makh, mapt);
@@ -61,7 +61,7 @@ namespace DAO
 
         public static bool ThemPhieuThuePhong(ChiTietPhieuThueDTO ct, PhieuThuePhongDTO p)
         {
-            SqlParameter mapt = new SqlParameter("@MaPT", ct.MaPT);
+            SqlParameter mapt = new SqlParameter("@MaPT", ct.MaPhieuThue);
             SqlParameter ngaythue = new SqlParameter("@NgayThue", p.NgayThue);
             SqlParameter maphong = new SqlParameter("@MaPhong", p.MaPhong);
             SqlParameter ngaytraphong = new SqlParameter("@NgayTraPhong", p.NgayTraPhong);
@@ -81,8 +81,8 @@ namespace DAO
             var query = (from pt in context.PHIEU_THUE_PHONG
                          select new PhieuThuePhongDTO
                          {
-                             MaPT = pt.MaPhieuThue,
-                         }).OrderByDescending(x => x.MaPT).Take(1);
+                             MaPhieuThue = pt.MaPhieuThue,
+                         }).OrderByDescending(x => x.MaPhieuThue).Take(1);
             return query.ToList();
         }
     }

@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class PhieuThuePhongDTO
-    {
-        public int? MaPhong { get; set; }
-        public DateTime NgayThue { get; set; }
-        public int? MaPT { get; set; }
-        public int? MaCTPT { get; set; }
-        public DateTime? NgayTraPhong { get; set; }
-    }
+     public class PhieuThuePhongDTO
+     {
+          private int? _maPhong;
+          private DateTime _ngayThue;
+          private int? _maPhieuThue;
+          private int? _maChiTietPhieuThue;
+          private DateTime? _ngayTraPhong;
+
+          public int? MaPhong { get => _maPhong; set => _maPhong = value; }
+          public DateTime NgayThue { get => _ngayThue; set => _ngayThue = value; }
+          public int? MaPhieuThue { get => _maPhieuThue; set => _maPhieuThue = value; }
+          public int? MaChiTietPhieuThue { get => _maChiTietPhieuThue; set => _maChiTietPhieuThue = value; }
+          public DateTime? NgayTraPhong { get => _ngayTraPhong; set => _ngayTraPhong = value; }
+     }
 }

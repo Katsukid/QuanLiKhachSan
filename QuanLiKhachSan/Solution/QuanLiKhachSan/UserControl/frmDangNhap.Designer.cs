@@ -57,8 +57,6 @@
                this.panelControl1.Appearance.BackColor = System.Drawing.Color.Transparent;
                this.panelControl1.Appearance.Options.UseBackColor = true;
                this.panelControl1.Controls.Add(this.btnThoat);
-               this.panelControl1.Controls.Add(this.label4);
-               this.panelControl1.Controls.Add(this.btnTroGiup);
                this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
                this.panelControl1.Location = new System.Drawing.Point(0, 0);
                this.panelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -86,7 +84,7 @@
                // 
                this.label4.AutoSize = true;
                this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-               this.label4.Location = new System.Drawing.Point(53, 13);
+               this.label4.Location = new System.Drawing.Point(1035, 539);
                this.label4.Name = "label4";
                this.label4.Size = new System.Drawing.Size(56, 25);
                this.label4.TabIndex = 2;
@@ -101,7 +99,7 @@
                this.btnTroGiup.Appearance.Options.UseBorderColor = true;
                this.btnTroGiup.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
                this.btnTroGiup.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTroGiup.ImageOptions.Image")));
-               this.btnTroGiup.Location = new System.Drawing.Point(0, 0);
+               this.btnTroGiup.Location = new System.Drawing.Point(985, 531);
                this.btnTroGiup.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
                this.btnTroGiup.Name = "btnTroGiup";
                this.btnTroGiup.Size = new System.Drawing.Size(44, 46);
@@ -115,6 +113,7 @@
                this.panelControl2.Appearance.Options.UseBackColor = true;
                this.panelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
                this.panelControl2.Dock = System.Windows.Forms.DockStyle.Top;
+               this.panelControl2.ImeMode = System.Windows.Forms.ImeMode.On;
                this.panelControl2.Location = new System.Drawing.Point(0, 46);
                this.panelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
                this.panelControl2.Name = "panelControl2";
@@ -127,7 +126,7 @@
                this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.label3.Location = new System.Drawing.Point(61, 101);
                this.label3.Name = "label3";
-               this.label3.Size = new System.Drawing.Size(413, 53);
+               this.label3.Size = new System.Drawing.Size(586, 53);
                this.label3.TabIndex = 8;
                this.label3.Text = "Welcome Back, Let tell me who you are:";
                this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -144,11 +143,11 @@
                // 
                // pictureBox1
                // 
-               this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-               this.pictureBox1.Location = new System.Drawing.Point(707, 157);
+               this.pictureBox1.Image = global::QuanLiKhachSan.Properties.Resources.hotelicon;
+               this.pictureBox1.Location = new System.Drawing.Point(689, 195);
                this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
                this.pictureBox1.Name = "pictureBox1";
-               this.pictureBox1.Size = new System.Drawing.Size(347, 369);
+               this.pictureBox1.Size = new System.Drawing.Size(323, 331);
                this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
                this.pictureBox1.TabIndex = 10;
                this.pictureBox1.TabStop = false;
@@ -250,6 +249,8 @@
                this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
                this.ClientSize = new System.Drawing.Size(1103, 584);
                this.Controls.Add(this.btnHuy);
+               this.Controls.Add(this.btnTroGiup);
+               this.Controls.Add(this.label4);
                this.Controls.Add(this.btnDangNhap);
                this.Controls.Add(this.label2);
                this.Controls.Add(this.label1);
@@ -270,7 +271,6 @@
                this.Load += new System.EventHandler(this.frmDangNhap_Load);
                ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
                this.panelControl1.ResumeLayout(false);
-               this.panelControl1.PerformLayout();
                ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
                ((System.ComponentModel.ISupportInitialize)(this.separatorControl1)).EndInit();
                ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

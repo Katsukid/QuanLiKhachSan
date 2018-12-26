@@ -218,7 +218,7 @@ namespace DAO
                          select new HoaDonDTO
                          {
                              KhachPTThu = t.PhuThuKhachThu,
-                             SLKhachNG = t.SLKhachNuocNgoai,
+                             SoLuongKhachNuocNgoai = t.SLKhachNuocNgoai,
                          });
             return query.ToList();
         }

@@ -26,7 +26,7 @@ namespace DAO
 
         public static bool ThemKhachHang(KhachHangDTO kh)
         {
-            SqlParameter makh = new SqlParameter("@MaKH", kh.MaKH);
+            SqlParameter makh = new SqlParameter("@MaKH", kh.MaKhachHang);
             SqlParameter tenkh = new SqlParameter("@TenKH", kh.TenKhachHang);
             SqlParameter cmnd = new SqlParameter("@CMND", kh.CMND);
             SqlParameter diachi = new SqlParameter("@DiaChi", kh.DiaChi);
@@ -48,7 +48,7 @@ namespace DAO
                          join t in context.LOAI_KHACH_HANG on c.MaLoaiKhach equals t.MaLoaiKhach
                          select new KhachHangDTO
                          {
-                             MaKH = c.MaKhachHang,
+                             MaKhachHang = c.MaKhachHang,
                              TenKhachHang = c.TenKhachHang,
                              CMND = c.CMND,
                              LoaiKhach = t.TenLoaiKhach,
@@ -64,7 +64,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -80,7 +80,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND) && kh.TenKhachHang.Contains(thongtin.TenKhachHang) && lk.TenLoaiKhach.Contains(thongtin.LoaiKhach)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -91,7 +91,7 @@ namespace DAO
 
         public static bool XoaKhachHang(KhachHangDTO id)
         {
-            SqlParameter makh = new SqlParameter("@MaKH", id.MaKH);
+            SqlParameter makh = new SqlParameter("@MaKH", id.MaKhachHang);
             try
             {
                 context.Database.ExecuteSqlCommand("spXoaKhachHang @MaKH", makh);
@@ -110,7 +110,7 @@ namespace DAO
                          where ct.MaPhieuThue == maphieuthue
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                          });
             return query.ToList();
         }
@@ -122,7 +122,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND) && kh.DiaChi.Contains(thongtin.DiaChi)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -138,7 +138,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND) && kh.DiaChi.Contains(thongtin.DiaChi) && lk.TenLoaiKhach.Contains(thongtin.LoaiKhach)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -154,7 +154,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND) && lk.TenLoaiKhach.Contains(thongtin.LoaiKhach)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -170,7 +170,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND) && kh.TenKhachHang.Contains(thongtin.TenKhachHang)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -186,7 +186,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND) && kh.TenKhachHang.Contains(thongtin.TenKhachHang) && kh.DiaChi.Contains(thongtin.DiaChi)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -202,7 +202,7 @@ namespace DAO
                          where kh.CMND.Contains(thongtin.CMND) && kh.TenKhachHang.Contains(thongtin.TenKhachHang) && lk.TenLoaiKhach == thongtin.LoaiKhach && kh.DiaChi.Contains(thongtin.DiaChi)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -218,7 +218,7 @@ namespace DAO
                          where kh.TenKhachHang.Contains(thongtin.TenKhachHang)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -234,7 +234,7 @@ namespace DAO
                          where kh.TenKhachHang.Contains(thongtin.TenKhachHang) && kh.DiaChi.Contains(thongtin.DiaChi)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -250,7 +250,7 @@ namespace DAO
                          where kh.TenKhachHang.Contains(thongtin.TenKhachHang) && lk.TenLoaiKhach == thongtin.LoaiKhach
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -266,7 +266,7 @@ namespace DAO
                          where kh.TenKhachHang.Contains(thongtin.TenKhachHang) && lk.TenLoaiKhach == thongtin.LoaiKhach && kh.DiaChi.Contains(thongtin.DiaChi)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -282,7 +282,7 @@ namespace DAO
                          where lk.TenLoaiKhach == thongtin.LoaiKhach
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -298,7 +298,7 @@ namespace DAO
                          where lk.TenLoaiKhach == thongtin.LoaiKhach && kh.DiaChi.Contains(thongtin.DiaChi)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -314,7 +314,7 @@ namespace DAO
                          where kh.DiaChi.Contains(thongtin.DiaChi)
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
@@ -332,7 +332,7 @@ namespace DAO
                          where pt.MaPhong == thongtin.MaPhong
                          select new KhachHangDTO
                          {
-                             MaKH = kh.MaKhachHang,
+                             MaKhachHang = kh.MaKhachHang,
                              TenKhachHang = kh.TenKhachHang,
                              LoaiKhach = lk.TenLoaiKhach,
                              CMND = kh.CMND,
